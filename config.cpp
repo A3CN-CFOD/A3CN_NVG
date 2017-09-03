@@ -68,8 +68,10 @@ class CfgWeapons
 					visionMode[]=
 					{
 						"Normal",
-						"NVG"
+						"NVG",
+						"Ti"
 					};
+					thermalMode[]={0,1};
 				};
 				class Iron: Snip
 				{
@@ -92,8 +94,10 @@ class CfgWeapons
 					visionMode[]=
 					{
 						"Normal",
-						"NVG"
+						"NVG",
+						"Ti"
 					};
+					thermalMode[]={0,1};
 				};
 				class Iron: Snip
 				{
@@ -116,29 +120,10 @@ class CfgWeapons
 					visionMode[]=
 					{
 						"Normal",
-						"NVG"
-					};
-				};
-			};
-		};
-	};
-	class a3cn_LRPS: optic_LRPS
-	{
-		descriptionShort="Long-Range Precision Scope with Thermal<br />Magnification: 6x-25x";
-		ACE_NightVision_grain=0;
-		ACE_NightVision_blur=0;
-		ACE_NightVision_radBlur=0;
-		class ItemInfo: InventoryOpticsItem_Base_F
-		{
-			class OpticsModes
-			{
-				class Snip
-				{
-					visionMode[]=
-					{
-						"Normal",
+						"NVG",
 						"Ti"
 					};
+					thermalMode[]={0,1};
 				};
 			};
 		};
@@ -159,8 +144,10 @@ class CfgWeapons
 					visionMode[]=
 					{
 						"Normal",
-						"NVG"
+						"NVG",
+						"Ti"
 					};
+					thermalMode[]={0,1};
 				};
 			};
 		};
@@ -181,8 +168,10 @@ class CfgWeapons
 					visionMode[]=
 					{
 						"Normal",
-						"NVG"
+						"NVG",
+						"Ti"
 					};
+					thermalMode[]={0,1};
 				};
 				class Iron
 				{
